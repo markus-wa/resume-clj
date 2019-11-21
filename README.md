@@ -42,7 +42,7 @@ In the REPL, type
 
 ```
 (ns resume.core)
-(swap! app-state assoc :text "Interactivity FTW")
+(swap! re-frame.db/app-db assoc :name "Interactivity FTW")
 ```
 
 Notice again how the browser updates.
