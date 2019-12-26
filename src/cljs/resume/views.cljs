@@ -1,10 +1,11 @@
 (ns resume.views
-  (:require [re-frame.core :as re-frame :refer [subscribe]]))
+  (:require [re-frame.core :as re-frame
+             :refer            [subscribe]]))
 
 (defn title
   []
   (let [about @(subscribe [:about])
-        name (:name about)]
+        name  (:name about)]
     [:div
      [:h1 (:first name) " " (:last name)]
      [:h2 (:position about)]
