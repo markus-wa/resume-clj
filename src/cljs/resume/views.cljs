@@ -13,7 +13,8 @@
 
 (defn main-panel
   []
-  (let [name (subscribe [:name])]
-    [:div
-     [:div "Hello from " @name]
+  (let [about @(subscribe [:about])
+        name  (:name about)]
+   [:div
+     [:div "Hello from " (:first name)]
      [title]]))
