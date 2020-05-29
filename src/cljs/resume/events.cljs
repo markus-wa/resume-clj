@@ -1,8 +1,28 @@
 (ns resume.events
-  (:require [re-frame.core :as re-frame]
-            [resume.db :as db]))
+  (:require [re-frame.core :as rf]
+            [resume.db :as db]
+            [ajax.core :as ajax]))
 
-(re-frame/reg-event-db
+(rf/reg-event-db
  :initialize-db
- (fn  [_ _]
+ (fn [_ _]
    db/default-db))
+
+(rf/reg-event-fx
+ :get-resume
+ (fn [{:keys [db]} [_ a]]
+   {:http-xhrio {:method     :get
+                 :uri        "http://localhost:10555/resume.json"
+                 :response-format (ajax/json-response-format {:keywords? true})
+                 :on-success [:process-resume-response]
+                 :on-fail    [:failed-get-reusme]}
+    :db         (assoc db :loading? true)}))
+
+(rf/reg-event-db
+ :process-resume-response
+ (fn
+   [db [_ response]]
+   (do (println "a" (type response) (type {}) "b" (type (js->clj response)))
+   (-> db
+       (assoc :loading? false)
+       (assoc :resume response)))))

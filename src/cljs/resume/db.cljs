@@ -31,23 +31,6 @@
        (s/keys :req-un
                [::about
                 ::experience]))
-(println
- (s/conform ::resume
-            {:about      {:name     {:first "Johyyynxxx" :last "Doe"}
-                          :position "Software Engineer"
-                          :summary  "Lorem ipsum"}
-             :experience {:company    "ACME Co."
-                          :position   "Software Engineer"
-                          :timeperiod "since September 2019"}}))
 
 (def default-db
-  {:about      {:name     {:first "John" :last "Doe"}
-                :position "Software Engineer"
-                :summary  "Lorem ipsum"}
-   :experience {:company    "ACME Co."
-                :position   "Software Engineer"
-                :timeperiod "since September 2019"}})
-
-;; TODO improve schema validation
-(if-not (s/valid? ::resume default-db)
-        (println (s/explain ::resume default-db)))
+  {:hello "world"})

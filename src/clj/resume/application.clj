@@ -1,26 +1,26 @@
 (ns resume.application
   (:gen-class)
   (:require [com.stuartsierra.component :as component]
-            [resume.components.server-info :refer [server-info]]
-            [system.components.endpoint :refer [new-endpoint]]
-            [system.components.handler :refer [new-handler]]
-            [system.components.middleware :refer [new-middleware]]
-            [system.components.jetty :refer [new-web-server]]
-            [resume.config :refer [config]]
-            [resume.routes :refer [home-routes]]))
+            [resume.components.server-info :as sys.srv-info]
+            [system.components.endpoint :as sys.endpoint]
+            [system.components.handler :as sys.handler]
+            [system.components.middleware :as sys.mw]
+            [system.components.jetty :as sys.jetty]
+            [resume.config :as cfg]
+            [resume.routes :as routes]))
 
 (defn app-system [config]
   (component/system-map
-   :routes     (new-endpoint home-routes)
-   :middleware (new-middleware {:middleware (:middleware config)})
-   :handler    (-> (new-handler)
+   :routes     (sys.endpoint/new-endpoint routes/home-routes)
+   :middleware (sys.mw/new-middleware {:middleware (:middleware config)})
+   :handler    (-> (sys.handler/new-handler)
                    (component/using [:routes :middleware]))
-   :http       (-> (new-web-server (:http-port config))
+   :http       (-> (sys.jetty/new-web-server (:http-port config))
                    (component/using [:handler]))
-   :server-info (server-info (:http-port config))))
+   :server-info (sys.srv-info/server-info (:http-port config))))
 
 (defn -main [& _]
-  (let [config (config)]
+  (let [config (cfg/config)]
     (-> config
         app-system
         component/start)))

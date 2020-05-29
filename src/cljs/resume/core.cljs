@@ -4,7 +4,8 @@
             [resume.events]
             [resume.subs]
             [resume.views :as views]
-            [resume.config :as config]))
+            [resume.config :as config]
+            [day8.re-frame.http-fx]))
 
 (enable-console-print!)
 
@@ -20,5 +21,6 @@
 
 (defn render []
   (re-frame/dispatch-sync [:initialize-db])
+  (re-frame/dispatch-sync [:get-resume])
   (dev-setup)
   (mount-root))

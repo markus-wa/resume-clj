@@ -15,6 +15,5 @@
   []
   (let [about @(subscribe [:about])
         name  (:name about)]
-   [:div
-     [:div "Hello from " (:first name)]
+    [:div
      [title]]))

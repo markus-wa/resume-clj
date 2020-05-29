@@ -18,7 +18,9 @@
                  [org.danielsz/system "0.4.1"]
                  [org.clojure/tools.namespace "0.2.11"]
                  [compojure "1.6.1"]
-                 [re-frame "0.10.6"]]
+                 [re-frame "0.10.6"]
+                 [day8.re-frame/http-fx "v0.2.0"]
+                 [ring/ring-json "0.4.0"]]
 
   :plugins
   [[lein-cljsbuild "1.1.7"]

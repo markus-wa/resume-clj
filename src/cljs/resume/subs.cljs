@@ -10,4 +10,4 @@
 (re-frame/reg-sub
  :about
  (fn [db]
-   (:about db)))
+   (:about (:resume db))))
