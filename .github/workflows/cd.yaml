@@ -40,6 +40,9 @@ jobs:
     - name: build css
       run: lein run -m resume.style
 
+    - name: build resume data JSON
+      run: lein run -m resume.json
+
     - name: deploy
       uses: peaceiris/actions-gh-pages@v3
       with:

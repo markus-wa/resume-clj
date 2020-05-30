@@ -34,5 +34,8 @@ jobs:
     - name: build js
       run: lein cljsbuild once min
 
+    - name: build resume data JSON
+      run: lein run -m resume.json
+
     - name: build css
       run: lein run -m resume.style

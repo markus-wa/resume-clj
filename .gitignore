@@ -10,6 +10,7 @@
 /out/
 /resources/public/js/compiled/**
 /resources/public/css/compiled/**
+/resources/public/resume.json
 /target/
 figwheel_server.log
 pom.xml
