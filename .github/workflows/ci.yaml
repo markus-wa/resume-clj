@@ -1,7 +1,7 @@
 on: push
 
 jobs:
-  build-deploy:
+  ci:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,6 +12,8 @@ jobs:
         java-package: jdk
         architecture: x64
     - uses: DeLaGuardo/setup-clojure@2.0
+      with:
+        lein: 2.9.1
 
     - uses: DeLaGuardo/clojure-lint-action@master
       with:
