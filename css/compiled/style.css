@@ -1,0 +1,100 @@
+body {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+@media (min-width: 64em) {
+
+  body {
+    font-size: 1.2em;
+    line-height: 1.7999999999999998;
+  }
+
+}
+
+@media (min-width: 85.375em) {
+
+  body {
+    font-size: 1.3em;
+  }
+
+}
+
+@media (min-width: 120em) {
+
+  body {
+    font-size: 1.4em;
+  }
+
+}
+
+@media (min-width: 160em) {
+
+  body {
+    font-size: 1.6em;
+  }
+
+}
+
+* {
+  font-family: monospace;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: CornflowerBlue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+}
+
+@media (min-width: 85.375em) {
+
+  .flex-buffer {
+    flex: 1;
+  }
+
+}
+
+.main {
+  flex: 2;
+  margin: 0px 10px;
+}
+
+.sidebar {
+  flex: 1;
+  margin: 0px 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.location {
+  font-weight: normal;
+}
+
+.subtitle {
+  font-size: smaller;
+}
+
+.time-period {
+  font-weight: normal;
+  font-size: smaller;
+  text-transform: uppercase;
+  color: Gray;
+}
+
+.title-italic {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.github-fork-ribbon:before {
+  background-color: rgb(51, 51, 51);
+}
