@@ -12,7 +12,7 @@
  :get-resume
  (fn [{:keys [db]} [_ _]]
    {:http-xhrio {:method     :get
-                 :uri        "http://localhost:10555/resume.json"
+                 :uri        (str (-> js/window .-location .-origin) "/resume.json")
                  :response-format (ajax/json-response-format {:keywords? true})
                  :on-success [:process-resume-response]
                  :on-fail    [:failed-get-reusme]}
