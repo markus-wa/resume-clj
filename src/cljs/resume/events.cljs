@@ -22,7 +22,6 @@
  :process-resume-response
  (fn
    [db [_ response]]
-   (do (println "a" (type response) (type {}) "b" (type (js->clj response)))
    (-> db
        (assoc :loading? false)
-       (assoc :resume response)))))
+       (assoc :resume response))))

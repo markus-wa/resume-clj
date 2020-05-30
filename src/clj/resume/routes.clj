@@ -14,7 +14,7 @@
             response
             (assoc :headers {"Content-Type" "text/html; charset=utf-8"})))
    (GET "/resume.json" _
-        (-> "public/resume.edn"
+        (-> "resume.edn"
             io/resource
             slurp
             read-string
