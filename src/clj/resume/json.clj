@@ -6,5 +6,6 @@
   (->> "resume.edn"
        io/resource
        slurp
+       read-string
        json/generate-string
        (spit "resources/public/resume.json")))
