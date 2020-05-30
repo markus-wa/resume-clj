@@ -1,5 +1,6 @@
 (ns resume.style
-  (:require [garden.core :refer [css]]
+  (:require clojure.java.io
+            [garden.core :refer [css]]
             [garden.stylesheet :refer [at-media]]))
 
 (defmacro defs
@@ -8,6 +9,22 @@
   `(do
      ~@(for [[sym init] (partition 2 bindings)]
          `(def ~sym ~init))))
+
+(declare
+ base-font-size
+ base-line-height
+ header-line-height
+ bp-small
+ bp-medium
+ bp-large
+ bp-xlarge
+ bp-xxlarge
+ mq-small
+ mq-medium
+ mq-large
+ mq-xlarge
+ mq-xxlarge
+ mq-retina)
 
 (defs
   base-font-size 1
