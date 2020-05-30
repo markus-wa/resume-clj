@@ -1,12 +1,12 @@
 (ns resume.routes
-  (:require [clojure.data.json :as json]
-            [clojure.java.io :as io]
-            [compojure.core :refer [ANY GET PUT POST DELETE routes]]
+  (:require [clojure.java.io :as io]
+            [compojure.core :refer [GET routes]]
             [compojure.route :refer [resources]]
             [ring.util.response :refer [response]]
             [resume.style :as style]))
 
-(defn home-routes [endpoint]
+(defn home-routes
+  [_endpoint]
   (routes
    (GET "/" _
         (-> "public/index.html"

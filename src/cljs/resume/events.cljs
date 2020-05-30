@@ -10,7 +10,7 @@
 
 (rf/reg-event-fx
  :get-resume
- (fn [{:keys [db]} [_ a]]
+ (fn [{:keys [db]} [_ _]]
    {:http-xhrio {:method     :get
                  :uri        "http://localhost:10555/resume.json"
                  :response-format (ajax/json-response-format {:keywords? true})
