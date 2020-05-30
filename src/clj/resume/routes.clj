@@ -3,7 +3,8 @@
             [clojure.java.io :as io]
             [compojure.core :refer [ANY GET PUT POST DELETE routes]]
             [compojure.route :refer [resources]]
-            [ring.util.response :refer [response]]))
+            [ring.util.response :refer [response]]
+            [resume.style :as style]))
 
 (defn home-routes [endpoint]
   (routes
@@ -20,4 +21,8 @@
             read-string
             response
             (assoc :headers {"Content-Type" "application/json; charset=utf-8"})))
+   (GET "/css/style.css" _
+        (-> (style/build)
+            response
+            (assoc :headers {"Content-Type" "text/css; charset=utf-8"})))
    (resources "/")))

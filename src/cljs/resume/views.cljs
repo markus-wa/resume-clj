@@ -133,11 +133,15 @@
   (let [resume @(rf/subscribe [:resume])]
     [:div
      [:div.flex-container
+      [:div.flex-buffer]
       [:div.main
        [title (:about resume)]]
       [:div.sidebar
-       [contact (:contact (:about resume))]]]
+       [:br]
+       [contact (:contact (:about resume))]]
+      [:div.flex-buffer]]
      [:div.flex-container
+      [:div.flex-buffer]
       [:div.main
        [experience-section (:experience resume)]
        [education-section (:education resume)]
@@ -145,4 +149,5 @@
       [:div.sidebar
        [skills-section (:skills resume)]
        [certificates (:certificates resume)]
-       [languages (:languages resume)]]]]))
+       [languages (:languages resume)]]
+      [:div.flex-buffer]]]))

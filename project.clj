@@ -20,7 +20,8 @@
                  [compojure "1.6.1"]
                  [re-frame "0.10.6"]
                  [day8.re-frame/http-fx "v0.2.0"]
-                 [ring/ring-json "0.4.0"]]
+                 [ring/ring-json "0.4.0"]
+                 [garden "1.3.10"]]
 
   :plugins
   [[lein-cljsbuild "1.1.7"]
