@@ -103,3 +103,8 @@
        [:.github-fork-ribbon
         [:&:before
         {:background-color "rgb(51, 51, 51)"}]]))
+
+(defn -main [& _]
+  (let [file "resources/public/css/compiled/style.css"]
+    (clojure.java.io/make-parents file)
+    (spit file (build))))
