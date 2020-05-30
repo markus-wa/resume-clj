@@ -32,16 +32,16 @@ jobs:
       run: lein deps
 
     - name: unit tests
-      run: lein test
+      run: lein with-profile -dev test
 
     - name: build js
-      run: lein cljsbuild once min
-
-    - name: build css
-      run: lein run -m resume.style
+      run: lein with-profile -dev cljsbuild once min
 
     - name: build resume data JSON
-      run: lein run -m resume.json
+      run: lein with-profile -dev run -m resume.json
+
+    - name: build css
+      run: lein with-profile -dev run -m resume.style
 
     - name: deploy
       uses: peaceiris/actions-gh-pages@v3
