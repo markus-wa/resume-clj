@@ -134,20 +134,22 @@
     [:div
      [:div.flex-container
       [:div.flex-buffer]
-      [:div.main
-       [title (:about resume)]]
-      [:div.sidebar
-       [:br]
-       [contact (:contact (:about resume))]]
+      [:div.content
+       [:div.main
+        [title (:about resume)]]
+       [:div.sidebar
+        [:br]
+        [contact (:contact (:about resume))]]]
       [:div.flex-buffer]]
      [:div.flex-container
       [:div.flex-buffer]
-      [:div.main
-       [experience-section (:experience resume)]
-       [education-section (:education resume)]
-       [projects-section (:projects resume)]]
-      [:div.sidebar
-       [skills-section (:skills resume)]
-       [certificates (:certificates resume)]
-       [languages (:languages resume)]]
+      [:div.content
+       [:div.main
+        [experience-section (:experience resume)]
+        [education-section (:education resume)]
+        [projects-section (:projects resume)]]
+       [:div.sidebar
+        [skills-section (:skills resume)]
+        [certificates (:certificates resume)]
+        [languages (:languages resume)]]]
       [:div.flex-buffer]]]))

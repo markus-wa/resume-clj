@@ -21,7 +21,7 @@
             read-string
             response
             (assoc :headers {"Content-Type" "application/json; charset=utf-8"})))
-   (GET "/css/style.css" _
+   (GET "/css/compiled/style.css" _
         (-> (style/build)
             response
             (assoc :headers {"Content-Type" "text/css; charset=utf-8"})))

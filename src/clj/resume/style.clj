@@ -14,11 +14,13 @@
  base-font-size
  base-line-height
  header-line-height
+ bp-xsmall
  bp-small
  bp-medium
  bp-large
  bp-xlarge
  bp-xxlarge
+ mq-xsmall
  mq-small
  mq-medium
  mq-large
@@ -32,6 +34,7 @@
   header-line-height 1.25)
 
 (defs
+  bp-xsmall "32em"
   bp-small "48em"
   bp-medium "64em"
   bp-large "85.375em"
@@ -39,6 +42,7 @@
   bp-xxlarge "160em")
 
 (defs
+  mq-xsmall {:min-width bp-xsmall}
   mq-small {:min-width bp-small}
   mq-medium {:min-width bp-medium}
   mq-large {:min-width bp-large}
@@ -56,10 +60,17 @@
   (css [:body
         {:font-size (em base-font-size)
          :line-height (str base-line-height)}]
+       (at-media mq-xsmall
+                 [:.content
+                  {:display "block"}])
        (at-media mq-medium
                  [:body
                   {:font-size (em (* 1.2 base-font-size))
                    :line-height (* 1.2 base-line-height)}])
+       (at-media mq-small
+                 [:.content
+                  {:display "flex"
+                   :flex 3}])
        (at-media mq-large
                  [:body
                   {:font-size (em (* 1.3 base-font-size))}])
@@ -102,7 +113,7 @@
          :font-style "italic"}]
        [:.github-fork-ribbon
         [:&:before
-        {:background-color "rgb(51, 51, 51)"}]]))
+         {:background-color "rgb(51, 51, 51)"}]]))
 
 (defn -main [& _]
   (let [file "resources/public/css/compiled/style.css"]
