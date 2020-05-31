@@ -85,7 +85,6 @@
        [:h3
         {:text-transform "uppercase"
          :color "CornflowerBlue"}]
-       [:a {:text-decoration "none"}]
        [:.flex-container
         {:display "flex"}]
        (at-media mq-large
@@ -107,6 +106,12 @@
         {:font-weight "normal"
          :font-size "smaller"
          :text-transform "uppercase"
+         :color "Gray"}]
+       [:a :a:visited :a:hover :a:active
+        {:color "inherit"}]
+       [:.link-subtitle
+        {:font-weight "normal"
+         :font-size "smaller"
          :color "Gray"}]
        [:.title-italic
         {:font-weight "normal"

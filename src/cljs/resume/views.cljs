@@ -22,7 +22,8 @@
    [:p.bold
     (:phone contact)
     [:br]
-    (:email contact)]])
+    (let [{:keys [email]} contact]
+      [:a {:href (str "mailto:" email)} email])]])
 
 (defn experience-entry
   [exp]
@@ -74,7 +75,7 @@
    [:h4 (:name project) " - "
     [:span.title-italic (:platform project)]
     [:br]
-    [:span.subtitle
+    [:span.link-subtitle
      (let [url (:url project)]
        [:a {:href url} url])]]
    [:p (:description project)]])

@@ -17,7 +17,7 @@
                         {:middleware (into [[wrap-file "dev-target/public"]]
                                            (:middleware config))})
            :figwheel-system (fw-sys/figwheel-system (fw-config/fetch-config))
-           :css-watcher (fw-sys/css-watcher {:watch-paths ["resources/public/css"]}))))
+           :css-watcher (fw-sys/css-watcher {:watch-paths [#_"resources/public/css"]}))))
 
 (reloaded.repl/set-init! #(dev-system))
 
