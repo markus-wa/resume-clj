@@ -3,11 +3,28 @@ body {
   line-height: 1.5;
 }
 
+@media (min-width: 32em) {
+
+  .content {
+    display: block;
+  }
+
+}
+
 @media (min-width: 64em) {
 
   body {
     font-size: 1.2em;
     line-height: 1.7999999999999998;
+  }
+
+}
+
+@media (min-width: 48em) {
+
+  .content {
+    display: flex;
+    flex: 3;
   }
 
 }
