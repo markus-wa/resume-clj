@@ -62,10 +62,6 @@ h3 {
   color: CornflowerBlue;
 }
 
-a {
-  text-decoration: none;
-}
-
 .flex-container {
   display: flex;
 }
@@ -104,6 +100,16 @@ a {
   font-weight: normal;
   font-size: smaller;
   text-transform: uppercase;
+  color: Gray;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+.link-subtitle {
+  font-weight: normal;
+  font-size: smaller;
   color: Gray;
 }
 
