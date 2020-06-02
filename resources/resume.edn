@@ -9,7 +9,7 @@
                             :website  "markwalther.ch",
                             :github   "markus-wa"},
                  :birth    {:year 1997, :location "Berne, Switzerland"},
-                 :summary  "Highly passionate Software Engineer from Berne who enjoys working with bright people. Enthusiastic about writing performant and robust code with an ideal skill set for developing large, distributed applications."},
+                 :summary  "Highly passionate Software Engineer from Berne, Switzerland (currently based in the UK) who enjoys working with bright people. Enthusiastic about writing performant and robust code with an ideal skill set for developing large, distributed applications."},
  :experience    [{:company         "Hewlett Packard Enterprise, CMS",
                   :location        "Berne, Switzerland",
                   :position        "Technical Consultant",
