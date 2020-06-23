@@ -1,5 +1,5 @@
 {:about         {:name     {:first "Markus", :last "Walther"},
-                 :position "DevOps & Backed Engineer",
+                 :position "DevOps & Backend Engineer",
                  :contact  {:email    "contact@markwalther.ch",
                             :phone    "Phone REDACTED",
                             :street   "Street REDACTED",
