@@ -10,7 +10,19 @@
                             :github   "markus-wa"},
                  :birth    {:year 1997, :location "Berne, Switzerland"},
                  :summary  "Highly passionate Software Engineer from Berne, Switzerland (currently based in the UK) who enjoys working with bright people. Enthusiastic about writing performant and robust code with an ideal skill set for developing large, distributed applications."},
- :experience    [{:company         "Hewlett Packard Enterprise, CMS",
+ :experience    [{:company         "OVO Energy / Orion Energy Technology",
+                  :location        "Bristol, United Kingdom",
+                  :position        "Software Engineer",
+                  :timeperiod      "March 2020 - Present",
+                  :description     "At Orion I joined a team of four engineers looking after development of the Flows microservices, an integral part of the Orion Energy Platform powering half a million customers' electricity and gas supply. The Clojure services build a data ingestion pipeline, transforming the energy industry's unstructured data into neatly organised Kafka topics with well defined schemas.",
+                  :tasks           ["Leadership of security workstream within our team"
+                                    "Refinement, implementation and review of software development tasks (Clojure, Terraform, Kubernetes)"
+                                    "Production support, DevSecOps work (GCP infrastructure, CI/CD, security etc.)"
+                                    "Legacy Python codebase maintenance"],
+                  :accomplishments ["Migrated a set of microservices and infrastructure to a new GCP project (Terraform)"
+                                    "Wrote a micro library for tracking log metrics (Clojure)"
+                                    "Introduced linting & code-coverage into CI/CD pipeline (CircleCI & GitHub Workflows)"]}
+                 {:company         "Hewlett Packard Enterprise, CMS",
                   :location        "Berne, Switzerland",
                   :position        "Technical Consultant",
                   :timeperiod      "September 2018 - March 2020",
@@ -53,20 +65,32 @@
                   :description "During my apprenticeship I also attended vocational school with focus on Software Development. There I learned about best practices, design patterns and project management.",
                   :website     "https://gibb.ch"}],
  :skills        [{:level "Very Good",
-                  :entries ["Java 8" "Angular 7" "Go" "Gradle"]},
+                  :entries ["Java 8"
+                            "Angular 7"
+                            "Go"
+                            "Gradle"]},
                  {:level "Good",
-                  :entries ["Kotlin"
-                              "Clojue"
-                              "Docker"
-                              "Git"
-                              "Spring Boot"
-                              "REST"
-                              "OpenAPI"
-                              "Linux"
-                              "DevOps"
-                              "TDD"]}
+                  :entries ["Clojue"
+                            "Terraform"
+                            "GCP"
+                            "Docker"
+                            "Git"
+                            "Spring Boot"
+                            "REST"
+                            "OpenAPI"
+                            "Linux"
+                            "DevOps"
+                            "TDD"]}
                  {:level "Basics",
-                  :entries ["Python" "Groovy" "C++" "JPA" "Kubernetes" "Apache Tomcat" "SOAP" "HTML" "CSS"]}],
+                  :entries ["Python"
+                            "Kotlin"
+                            "Groovy"
+                            "C++"
+                            "Kubernetes"
+                            "Apache Tomcat"
+                            "SOAP"
+                            "HTML"
+                            "CSS"]}],
  :projects      [{:name        "demoinfocs-golang",
                   :platform    "Library",
                   :description "A library for parsing and analysing replays (aka. demos) of the game Counter-Strike: Global Offensive with over 2'000 downloads per week.",
