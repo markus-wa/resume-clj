@@ -12,7 +12,9 @@
   [contact]
   [:div
    [:p
-    (:street contact)
+    (:addressLine1 contact)
+    [:br]
+    (:addressLine2 contact)
     [:br]
     (:city contact)
     [:br]
