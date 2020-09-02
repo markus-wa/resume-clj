@@ -10,7 +10,7 @@
                             :github   "markus-wa"},
                  :birth    {:year 1997, :location "Berne, Switzerland"},
                  :summary  "Highly passionate Software Engineer from Berne, Switzerland (currently based in the UK) who enjoys working with bright people. Enthusiastic about writing performant and robust code with an ideal skill set for developing large, distributed applications."},
- :experience    [{:company         "OVO Energy / Orion Energy Technology",
+ :experience    [{:company         "OVO Group / Kaluza",
                   :location        "Bristol, United Kingdom",
                   :position        "Software Engineer",
                   :timeperiod      "March 2020 - Present",
