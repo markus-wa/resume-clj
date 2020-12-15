@@ -10,11 +10,11 @@
                             :github   "markus-wa"},
                  :birth    {:year 1997, :location "Bern, Switzerland"},
                  :summary  "Highly passionate Software Engineer from Bern, Switzerland (currently based in the UK) who enjoys working with bright people. Enthusiastic about writing performant and robust code with an ideal skill set for developing large, distributed applications."},
- :experience    [{:company         "OVO Group / Kaluza",
+ :experience    [{:company         "Kaluza (OVO Group)",
                   :location        "Bristol, United Kingdom",
                   :position        "Software Engineer",
                   :timeperiod      "March 2020 - Present",
-                  :description     "At Orion I joined a team of four engineers looking after development of the Flows microservices, an integral part of the Orion Energy Platform powering half a million customers' electricity and gas supply. The Clojure services build a data ingestion pipeline, transforming the energy industry's unstructured data into neatly organised Kafka topics with well defined schemas.",
+                  :description     "At Kaluza I joined a team of four engineers looking after development of the Flows microservices, an integral part of the Orion Energy Platform powering half a million customers' electricity and gas supply. The Clojure services build a data ingestion pipeline, transforming the energy industry's unstructured data into neatly organised Kafka topics with well defined schemas.",
                   :tasks           ["Leadership of security workstream within our team"
                                     "Refinement, implementation and review of software development tasks (Clojure, Terraform, Kubernetes)"
                                     "Production support, DevSecOps work (GCP infrastructure, CI/CD, security etc.)"
