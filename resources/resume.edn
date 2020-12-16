@@ -15,7 +15,7 @@
                   :location        "Bristol, United Kingdom",
                   :position        "Software Engineer",
                   :timeperiod      "March 2020 - Present",
-                  :description     "At Kaluza I joined a team of four engineers looking after development of the Flows microservices, an integral part of the Orion Energy Platform powering half a million customers' electricity and gas supply. The Clojure services build a data ingestion pipeline, transforming the energy industry's unstructured data into neatly organised Kafka topics with well defined schemas.",
+                  :description     "At Kaluza I joined a team of four engineers looking after development of the Flows microservices, an integral part of the Orion Energy Platform powering over half a million customers' electricity and gas supply. The Clojure services build a data ingestion pipeline, transforming the energy industry's unstructured data into neatly organised Kafka topics with well defined schemas.",
                   :tasks           ["Leadership of security workstream within our team"
                                     "Refinement, implementation and review of software development tasks (Clojure, Terraform, Kubernetes)"
                                     "Production support, DevSecOps work (GCP infrastructure, CI/CD, security etc.)"
