@@ -99,7 +99,7 @@
  :contributions [{:name        "openapi-generator",
                   :description "Improvements and bug fixes in the Java CXF generator.",
                   :url         "https://github.com/OpenAPITools/openapi-generator"}],
- :languages     [{:name "German", :level "mother tongue"}
+ :languages     [{:name "German", :level "native"}
                  {:name "English", :level "fluent, CEFR C1"}],
  :certificates  [{:issuer "Cambridge English", :name "Business English Certificate Vantage"}
                  {:issuer "Scrum.org", :name "Professional Scrum Master I"}]}
