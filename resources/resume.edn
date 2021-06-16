@@ -11,18 +11,25 @@
                             :github       "markus-wa"},
                  :birth    {:year 1997, :location "Bern, Switzerland"},
                  :summary  "Highly passionate Software Engineer from Bern, Switzerland (currently based in the UK) who enjoys working with bright people. Enthusiastic about writing performant and robust code with an ideal skill set for developing large, distributed applications."},
- :experience    [{:company         "Kaluza (OVO Group)",
+ :experience    [{:company         "Saikō Technology"
+                  :location        "Bristol, United Kingdom"
+                  :position        "Director & Technical Consultant"
+                  :timeperiod      "November 2020 - Present"
+                  :tasks           ["Software development and consulting for third party companies"
+                                    "Client acquisition, business development and accounting"]
+                  :accomplishments ["Built multiple successful business relationships with eSports services companies"
+                                    "Successfully delivered a data processing pipeline within time and budget"]}
+                 {:company         "Kaluza (OVO Group)",
                   :location        "Bristol, United Kingdom",
                   :position        "Software Engineer",
-                  :timeperiod      "March 2020 - Present",
+                  :timeperiod      "March 2020 - June 2021",
                   :description     "At Kaluza I joined a team of four engineers looking after development of the Flows microservices, an integral part of the Orion Energy Platform powering over half a million customers' electricity and gas supply. The Clojure services build a data ingestion pipeline, transforming the energy industry's unstructured data into neatly organised Kafka topics with well defined schemas.",
-                  :tasks           ["Leadership of security workstream within our team"
+                  :tasks           ["Leadership of security workstream within the team"
                                     "Refinement, implementation and review of software development tasks (Clojure, Terraform, Kubernetes)"
-                                    "Production support, DevSecOps work (GCP infrastructure, CI/CD, security etc.)"
-                                    "Legacy Python codebase maintenance"],
+                                    "Production support, DevSecOps work (GCP infrastructure, CI/CD, security etc.)"],
                   :accomplishments ["Migrated a set of microservices and infrastructure to a new GCP project (Terraform)"
-                                    "Wrote a micro library for tracking log metrics (Clojure)"
-                                    "Introduced linting & code-coverage into CI/CD pipeline (CircleCI & GitHub Workflows)"]}
+                                    "Introduced linting & code-coverage into CI/CD pipeline (CircleCI & GitHub Workflows)"
+                                    "Wrote a micro library for tracking log metrics (Clojure)"]}
                  {:company         "Hewlett Packard Enterprise, CMS",
                   :location        "Bern, Switzerland",
                   :position        "Technical Consultant",
