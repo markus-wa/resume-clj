@@ -79,9 +79,10 @@
                             "Gradle"]},
                  {:level "Good",
                   :entries ["Terraform"
+                            "Kubernetes"
+                            "Docker"
                             "Java 11+"
                             "Angular 7+"
-                            "Docker"
                             "Git"
                             "Spring Boot"
                             "REST"
@@ -94,7 +95,6 @@
                             "Kotlin"
                             "Groovy"
                             "C++"
-                            "Kubernetes"
                             "Apache Tomcat"
                             "SOAP"
                             "HTML"
