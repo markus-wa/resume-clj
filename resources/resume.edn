@@ -1,6 +1,6 @@
 {:about         {:name     {:first "Markus", :last "Walther"},
                  :position "DevOps & Backend Engineer",
-                 :contact  {:email        "contact@markwalther.ch",
+                 :contact  {:email        "mark@saiko.tech",
                             :phone        "Phone redacted",
                             :addressLine1 "",
                             :addressLine2 "Address Redacted",
