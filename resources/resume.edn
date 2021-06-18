@@ -73,14 +73,14 @@
                   :description "During my apprenticeship I also attended vocational school with focus on Software Development. There I learned about best practices, design patterns and project management.",
                   :website     "https://gibb.ch"}],
  :skills        [{:level "Very Good",
-                  :entries ["Java 8"
-                            "Angular 7"
+                  :entries ["Clojue"
                             "Go"
+                            "Google Cloud"
                             "Gradle"]},
                  {:level "Good",
-                  :entries ["Clojue"
-                            "Terraform"
-                            "GCP"
+                  :entries ["Terraform"
+                            "Java 11+"
+                            "Angular 7+"
                             "Docker"
                             "Git"
                             "Spring Boot"
@@ -102,7 +102,11 @@
  :projects      [{:name        "demoinfocs-golang",
                   :platform    "Library",
                   :description "A library for parsing and analysing replays (aka. demos) of the game Counter-Strike: Global Offensive with over 2'000 downloads per week.",
-                  :url         "https://github.com/markus-wa/demoinfocs-golang"}],
+                  :url         "https://github.com/markus-wa/demoinfocs-golang"}
+                 {:name        "cq",
+                  :platform    "CLI tool",
+                  :description "Clojure command-line data processor for JSON, EDN and other data formats.",
+                  :url         "https://github.com/markus-wa/cq"}],
  :contributions [{:name        "openapi-generator",
                   :description "Improvements and bug fixes in the Java CXF generator.",
                   :url         "https://github.com/OpenAPITools/openapi-generator"}],
