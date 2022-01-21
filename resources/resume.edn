@@ -1,5 +1,5 @@
 {:about         {:name     {:first "Markus", :last "Walther"},
-                 :position "DevOps & Backend Engineer",
+                 :position "Backend & Cloud Engineer",
                  :contact  {:email        "mark@saiko.tech",
                             :phone        "Phone redacted",
                             :addressLine1 "",
@@ -13,7 +13,7 @@
                  :summary  "Highly passionate Software Engineer from Bern, Switzerland (currently based in the UK) who enjoys working with bright people. Enthusiastic about writing performant and robust code with an ideal skill set for developing large, distributed applications."},
  :experience    [{:company         "Esportal"
                   :location        "Remote"
-                  :position        "External Technical Consultant"
+                  :position        "Backend Engineer (Contractor)"
                   :timeperiod      "April 2021 - Present"
                   :description     "As a first long-term contract under my own company, I joined the Esportal backend team as an external Technical Consultant, working with a globally distributed team of engineers on improving and implementing core platform functionality. This included a re-write of the business-critical matchmaking system using a data-driven approach and implementing a game-server plugin for coordinating with the backend system."
                   :tasks           ["Software development of Go backend (analysis, design, implementation & review)"
@@ -33,7 +33,7 @@
                                     "Successfully delivered a data processing pipeline for client (PureSkill.gg) within time and budget"]}
                  {:company         "Kaluza (OVO Group)",
                   :location        "Bristol, United Kingdom",
-                  :position        "Software Engineer",
+                  :position        "Backend & Cloud Engineer",
                   :timeperiod      "March 2020 - June 2021",
                   :description     "At Kaluza I joined a team of four engineers looking after development of the Flows microservices, an integral part of the Orion Energy Platform powering over half a million customers' electricity and gas supply. The Clojure services build a data ingestion pipeline, transforming the energy industry's unstructured data into neatly organised Kafka topics with well defined schemas.",
                   :tasks           ["Leadership of security workstream within the team"
