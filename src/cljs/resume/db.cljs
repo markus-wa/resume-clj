@@ -1,5 +1,4 @@
-(ns resume.db
-  (:require [cljs.spec.alpha :as s]))
+(ns resume.db)
 
 (def default-db
   {})
