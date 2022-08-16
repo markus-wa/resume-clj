@@ -85,7 +85,7 @@
                   :description "During my apprenticeship I also attended vocational school with focus on Software Development. There I learned about best practices, design patterns and project management.",
                   :website     "https://gibb.ch"}],
  :skills        [{:level "Very Good",
-                  :entries ["Clojue"
+                  :entries ["Clojure"
                             "Go"
                             "Google Cloud"
                             "Gradle"]},
