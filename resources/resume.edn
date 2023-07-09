@@ -88,25 +88,29 @@
                   :entries ["Clojure"
                             "Go"
                             "Google Cloud"
-                            "Gradle"]},
+                            "Serverless"
+                            "CI/CD"
+                            "Engineering Practices"]},
                  {:level "Good",
                   :entries ["Terraform"
+                            "Pulumi"
                             "Kubernetes"
                             "Docker"
-                            "Java 11+"
-                            "Angular 7+"
-                            "Git"
-                            "Spring Boot"
+                            "Java"
+                            "TypeScript"
+                            "React"
+                            "GraphQL"
                             "REST"
                             "OpenAPI"
+                            "Git"
                             "Linux"
-                            "DevOps"
-                            "TDD"]}
+                            "DevOps"]}
                  {:level "Basics",
                   :entries ["Python"
                             "Kotlin"
                             "Groovy"
                             "C++"
+                            "AWS"
                             "Apache Tomcat"
                             "SOAP"
                             "HTML"
