@@ -10,23 +10,25 @@
                             :website      "saiko.tech",
                             :github       "markus-wa"},
                  :birth    {:year 1997, :location "Bern, Switzerland"},
-                 :summary  "Highly passionate Software Engineer from Bern, Switzerland (currently based in the UK) who enjoys working with bright people. Enthusiastic about writing performant and robust code with an ideal skill set for developing large, distributed applications."},
+                 :summary  "Highly passionate Software Engineer from Bern, Switzerland (currently based in the UK) who enjoys working with bright people. Enthusiastic about building performant and robust systems with an ideal skill set for developing large, distributed applications."},
  :experience    [{:company         "Esportal"
                   :location        "Remote"
-                  :position        "Backend Engineer (Contractor)"
+                  :position        "Senior Backend Engineer (Contract)"
                   :timeperiod      "April 2021 - Present"
-                  :description     "As a first long-term contract under my own company, I joined the Esportal backend team as an external Technical Consultant, working with a globally distributed team of engineers on improving and implementing core platform functionality. This included a re-write of the business-critical matchmaking system using a data-driven approach and implementing a game-server plugin for coordinating with the backend system."
-                  :tasks           ["Software development of Go backend (analysis, design, implementation & review)"
+                  :description     "Joining the Esportal backend team as an external Technical Consultant, I worked with a globally distributed team of engineers on improving and implementing core platform functionality, acting as technical leader in various projects. This included a re-write of the business-critical matchmaking system using a data-driven approach, implementing a game-server plugin for coordinating with the backend system and expanding the platform from a single game to support multiple games."
+                  :tasks           ["Cloud-native service design & architecture (GCP, AWS, Pulumi, Ansible)"
+                                    "Software development of Go backends (analysis, design, implementation & review)"
                                     "Re-write of the platform's core matchmaking algorithm in N-dimensional space using K-D Trees"
                                     "Development of SourcePawn plugin for Counter-Strike: Global Offensive for game-server & backend coordination"]
-                  :accomplishments ["Significant improvements in the matchmaking queue time and team balance thanks to data-driven approach"
+                  :accomplishments ["Delivered a highly scalable, high throughput set of services with public API + data pipeline for the Anti-Cheat team"
+                                    "Significant improvements in the matchmaking queue time and team balance thanks to data-driven approach"
                                     "Implemented monitoring and insights for the matchmaking system's performance"
-                                    "Successful delivery of software for sponsorship campaign involving backend, game-server plugin and data model"]}
+                                    "Successfully expanded the platform from a single game to support multiple games"]}
                  {:company         "Saikō Technology"
                   :location        "Bristol, United Kingdom"
                   :position        "Director & Technical Consultant"
                   :timeperiod      "November 2020 - Present"
-                  :description     "After expanding my skillset further at Kaluza, I started Saikō Technology, an eSports software consultancy firm. I was quickly able to find a set of clients interested in my services who have been satisfied customers since."
+                  :description     "After expanding my skillset further at Kaluza, I started Saikō Technology, a software consultancy firm primarily focused on backend systems, data pipelines & eSports tech. I was quickly able to find a set of clients interested in my services who have been satisfied customers since."
                   :tasks           ["Software development and consulting for third party companies"
                                     "Client acquisition, business development and accounting"]
                   :accomplishments ["Built multiple successful business relationships with eSports services companies"
