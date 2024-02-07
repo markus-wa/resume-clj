@@ -10,7 +10,7 @@
                             :website      "saiko.tech",
                             :github       "markus-wa"},
                  :birth    {:year 1997, :location "Bern, Switzerland"},
-                 :summary  "Highly passionate Software Engineer from Bern, Switzerland - based in Bristol, UK - who enjoys working with bright people. Enthusiastic about building performant and robust systems with an ideal skill set for developing large, distributed applications."},
+                 :summary  "Highly passionate Software Engineer from Bern, Switzerland - based in Bristol, UK - who enjoys working with bright people. Enthusiastic about building performant and robust software that solves real problems, with an ideal skill set for developing scalable and distributed systems."},
  :experience    [{:company         "Esportal"
                   :location        "Remote"
                   :position        "Senior Backend & Cloud Engineer (Contract)"
