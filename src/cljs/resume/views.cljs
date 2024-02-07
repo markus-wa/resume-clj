@@ -29,7 +29,7 @@
 
 (defn experience-entry
   [exp]
-  [:div
+  [:div.no-break
    [:div.no-break
      [:h4 (:company exp) ", "
       [:span.location (:location exp) " - "] ; TODO: long dash
