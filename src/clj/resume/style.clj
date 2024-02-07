@@ -80,7 +80,7 @@
        (at-media mq-xxlarge
                  [:body
                   {:font-size (em (* 1.6 base-font-size))}])
-       (at-media "print"
+       (at-media {:print true}
                  [:.no-break
                   {:break-inside "avoid"}])
        [:*
