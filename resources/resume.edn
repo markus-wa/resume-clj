@@ -13,7 +13,7 @@
                  :summary  "Highly passionate Software Engineer from Bern, Switzerland - based in Bristol, UK - who enjoys working with bright people. Enthusiastic about building performant and robust systems with an ideal skill set for developing large, distributed applications."},
  :experience    [{:company         "Esportal"
                   :location        "Remote"
-                  :position        "Senior Backend Engineer (Contract)"
+                  :position        "Senior Backend & Cloud Engineer (Contract)"
                   :timeperiod      "April 2021 - Present"
                   :description     "Joining the Esportal backend team as an external Technical Consultant, I worked with a globally distributed team of engineers on improving and implementing core platform functionality, acting as technical leader in various projects. This included a re-write of the business-critical matchmaking system using a data-driven approach, implementing a game-server plugin for coordinating with the backend system and expanding the platform from a single game to support multiple games."
                   :tasks           ["Cloud-native service design & architecture (GCP, AWS, Pulumi, Ansible)"
