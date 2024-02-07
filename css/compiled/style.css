@@ -53,6 +53,14 @@ body {
 
 }
 
+@media print {
+
+  .no-break {
+    break-inside: avoid;
+  }
+
+}
+
 * {
   font-family: monospace;
 }
