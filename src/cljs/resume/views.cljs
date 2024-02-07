@@ -30,20 +30,23 @@
 (defn experience-entry
   [exp]
   [:div
-   [:h4 (:company exp) ", "
-    [:span.location (:location exp) " - "] ; TODO: long dash
-    [:span.title-italic (:position exp)]
-    [:br]
-    [:span.time-period (:timeperiod exp)]]
-   [:p (:description exp)]
-   [:h5 "Tasks"]
-   [:ul
-    (for [task (:tasks exp)]
-      [:li {:key task} task])]
-   [:h5 "Accomplishments"]
-   [:ul
-    (for [acc (:accomplishments exp)]
-      [:li {:key acc} acc])]])
+   [:div.no-break
+     [:h4 (:company exp) ", "
+      [:span.location (:location exp) " - "] ; TODO: long dash
+      [:span.title-italic (:position exp)]
+      [:br]
+      [:span.time-period (:timeperiod exp)]]
+     [:p (:description exp)]]
+   [:div.no-break
+     [:h5 "Tasks"]
+     [:ul
+      (for [task (:tasks exp)]
+        [:li {:key task} task])]]
+   [:div.no-break
+     [:h5 "Accomplishments"]
+     [:ul
+      (for [acc (:accomplishments exp)]
+        [:li {:key acc} acc])]]])
 
 (defn experience-section
   [experience]
@@ -65,7 +68,7 @@
 
 (defn education-section
   [education]
-  [:div
+  [:div.no-break
    [:h3 "Education"]
    (for [edu education]
      [:div {:key (:degree edu)}
@@ -84,7 +87,7 @@
 
 (defn projects-section
   [projects]
-  [:div
+  [:div.no-break
    [:h3 "Projects"]
    (for [p projects]
      [:div {:key (:name p)}
@@ -99,7 +102,7 @@
 
 (defn contribution-section
   [contributions]
-  [:div
+  [:div.no-break
    [:h3 "Contributions"]
    (for [c contributions]
      [contribution-entry c])])
@@ -117,7 +120,7 @@
 
 (defn certificates
   [certs]
-  [:div
+  [:div.no-break
    [:h3 "Certificates"]
    (for [cert certs]
      (let [{:keys [issuer name]} cert]
@@ -125,7 +128,7 @@
 
 (defn languages
   [langs]
-  [:div
+  [:div.no-break
    [:h3 "Languages"]
    (for [lang langs]
      (let [{:keys [name level]} lang]
