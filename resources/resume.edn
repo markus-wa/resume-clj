@@ -1,5 +1,5 @@
 {:about         {:name     {:first "Markus", :last "Walther"},
-                 :position "Backend & Cloud Engineer",
+                 :position "Lead Software & Cloud Engineer",
                  :contact  {:email        "mark@saiko.tech",
                             :phone        "Phone redacted",
                             :addressLine1 "",
@@ -13,14 +13,15 @@
                  :summary  "Highly passionate Software Engineer from Bern, Switzerland - based in Bristol, UK - who enjoys working with bright people. Enthusiastic about building performant and robust software that solves real problems, with an ideal skill set for developing scalable and distributed systems."},
  :experience    [{:company         "Esportal"
                   :location        "Remote"
-                  :position        "Senior Backend & Cloud Engineer (Contract)"
+                  :position        "Lead Software & Cloud Engineer (Contract)"
                   :timeperiod      "April 2021 - Present"
                   :description     "Joining the Esportal backend team as an external Technical Consultant, I worked with a globally distributed team of engineers on improving and implementing core platform functionality, acting as technical leader in various projects. This included a re-write of the business-critical matchmaking system using a data-driven approach, implementing a game-server plugin for coordinating with the backend system and expanding the platform from a single game to support multiple games."
-                  :tasks           ["Cloud-native service design & architecture (GCP, AWS, Pulumi, Ansible)"
-                                    "Software development of Go backends (analysis, design, implementation & review)"
-                                    "Re-write of the platform's core matchmaking algorithm in N-dimensional space using K-D Trees"
-                                    "Development of SourcePawn plugin for Counter-Strike: Global Offensive for game-server & backend coordination"]
-                  :accomplishments ["Delivered a highly scalable, high throughput set of services with public API + data pipeline for the Anti-Cheat team"
+                  :tasks           ["Cloud-native service architecture, design & implementation (Go, GCP, Pub/Sub, BigQuery, Redis, Pulumi)"
+                                    "Design & implementation of N-Dimensional video game matchmaking algorithm (Go)"
+                                    "Game-server plugin for coordination/communication with backend (C#, Counter-Strike 2)"
+                                    "Full-stack development - analysis, design, implementation & review (React, Go, SQL, REST, GraphQL)"
+                                    "Anti-cheat client development (C++)"]
+                  :accomplishments ["Architecture, design & implementation of high throughput, cloud-native cheat-detection & prevention solution"
                                     "Significant improvements in the matchmaking queue time and team balance thanks to data-driven approach"
                                     "Implemented monitoring and insights for the matchmaking system's performance"
                                     "Successfully expanded the platform from a single game to support multiple games"]}
