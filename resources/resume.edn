@@ -85,36 +85,41 @@
                   :location    "Bern, Switzerland",
                   :degree      "Federal VET Diploma in Information Technology",
                   :timeperiod  "August 2012 - August 2016",
-                  :description "During my apprenticeship I also attended vocational school with focus on Software Development. There I learned about best practices, design patterns and project management.",
+                  :description "During my apprenticeship I also attended vocational school focusing on Software Development, where I learned about best practices, design patterns and project management.",
                   :website     "https://gibb.ch"}],
- :skills        [{:level "Very Good",
-                  :entries ["Clojure"
+ :skills        [{:level "Expert",
+                  :entries ["Backend"
+                            "Clojure"
                             "Go"
                             "Google Cloud"
                             "Serverless"
+                            "Cloud-native"
                             "CI/CD"
                             "Engineering Practices"]},
-                 {:level "Good",
-                  :entries ["Terraform"
-                            "Pulumi"
-                            "Kubernetes"
-                            "Docker"
-                            "Java"
+                 {:level "Skilled",
+                  :entries ["Full-Stack"
                             "TypeScript"
                             "React"
+                            "Java"
+                            "SQL"
+                            "Data-Driven-Development"
+                            "DevSecOps"
+                            "Terraform"
+                            "Pulumi"
+                            "AWS"
+                            "Kubernetes"
+                            "Docker"
                             "GraphQL"
                             "REST"
                             "OpenAPI"
                             "Git"
-                            "Linux"
-                            "DevOps"]}
-                 {:level "Basics",
+                            "Linux"]}
+                 {:level "Familiar",
                   :entries ["Python"
-                            "Kotlin"
+                            "C#"
                             "Groovy"
                             "C++"
-                            "AWS"
-                            "Apache Tomcat"
+                            "Ansible"
                             "SOAP"
                             "HTML"
                             "CSS"]}],
