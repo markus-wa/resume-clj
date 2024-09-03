@@ -136,4 +136,5 @@
                   :url         "https://github.com/OpenAPITools/openapi-generator"}],
  :languages     [{:name "German", :level "bilingual"}
                  {:name "English", :level "bilingual"}],
- :certificates  [{:issuer "Scrum.org", :name "Professional Scrum Master I"}]}
+ :certificates  [{:issuer "Google", :name "Professional Cloud Developer"}
+                 {:issuer "Scrum.org", :name "Professional Scrum Master I"}]}
