@@ -1,6 +1,6 @@
 {:about         {:name     {:first "Markus", :last "Walther"},
                  :position "Lead Software & Cloud Engineer",
-                 :contact  {:email        "mark@saiko.tech",
+                 :contact  {:email        "markus@saiko.tech",
                             :phone        "Phone Redacted",
                             :addressLine1 "",
                             :addressLine2 "Address Redacted",
